@@ -1,0 +1,50 @@
+body{/*El color, lal longitud y los márgenes que tiene el fondo de la página web*/
+    background-color: color-mix(in lab, rgba(9, 178, 234, 0.871)100%, pink 100%);
+    width: 90%;
+    margin: 0px auto;
+}
+h1{/* El tipo de letra, la posición de esta (en el centro) y que está subrayado el encabezado de nivel 1*/
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline; color: darkslategrey;
+}
+a:hover{/*"Hover hace que cuando pases con el cursor por encima de un enlace, este se vea, en este caso, de una mezcla de colores entre verde flojo y azul flojo*/
+    color: color-mix(in hsl shorter hue, darkolivegreen 80%, lightblue 100%);
+}
+a{/*Tipo de letra de los enlaces*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{/*De rosa flojo el fondo del header, además de que lo que esté dentro de este, estará en el centro. Entre el header y el main y aside, hay una línea discontinua que las divide */
+    background: lightpink;
+    text-align: center;
+    border-bottom: dashed darkslategray;
+}/* Los enlaces se ponen en la misma línea, es decir, no hay un enlace debajo de otro*/
+nav ul li{
+    float: left;
+    margin: 33px;
+}/*Esto es para que la imagen no se ponga en la misma línea que los enlaces, sino debajo de estos*/
+.clearfix{
+    clear: both;
+}
+
+main{/*El main ocupará un 70%, el fondo será de color verde flojo, su longitud será de 250px y todo lo que esté dentro de este, tendrá el tipo de letra "Arial"*/
+    float: left;
+    width: 70%;
+    background: lightseagreen;
+    min-height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside{ /*El aside ocupará un 30%, el fondo será de color amarillo flojo, su longitud será de 250px y todo lo que esté dentro de este, estará centrado*/
+    float: left;
+    width: 30%;
+    background: lightyellow;
+    min-height: 250px;
+    text-align: center;
+}
+footer{/*El fondo del footer será negro, pero el contenido de este será de color blanco, estará centrado y tendrá la tipografía "Segoe UI", además su longitud será 50px*/
+    background: black;
+    color: whitesmoke;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
